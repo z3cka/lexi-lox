@@ -5,15 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Lexi Lox</title>
+  <style>
+    @font-face {
+      font-family: 'TheHeartOfEverythingDemo';
+      src: url('fonts/the-heart-of-everything-demo.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'KionaRegular';
+      src: url('fonts/Kiona-Regular.ttf') format('truetype');
+    }
+    body {
+      background-color: #c4a1a1;
+      text-align: center;
+    }
+    img { max-width: 100%; }
+    #main {
+      font-family: 'KionaRegular';
+      font-size: 24px;
+      color: #fffce3;
+    }
+    .image-wrapper {
+      position: relative;
+      text-align: center;
+      width: 100%;
+    }
+    .image-wrapper img { opacity: 0.3; }
+    .image-wrapper div {
+      position: absolute;
+      top: 20px;
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
   <div id='header'>
-    <div>
-      Logo
-    </div>
+    <img src="images/LexiLoxLogo.png" alt="">
   </div>
   <div id=main>
-    <div>Coming Soon (over image)</div>
+    <div class="image-wrapper">
+      <img src="images/homepage-pic.jpg" alt="">
+      <div>Coming Soon</div>
+    </div>
   </div>
 </body>
 </html>
