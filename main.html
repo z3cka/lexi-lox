@@ -44,6 +44,12 @@
       border-top: 5px solid #fffce3;
       padding: 0 20px;
     }
+    section .content-wrapper.no-para {
+      padding: 24px 0;
+    }
+    section .content-wrapper.no-para img {
+      float: none;
+    }
     section .content {
       margin: auto;
       max-width: 900px;
@@ -54,8 +60,33 @@
       margin-bottom: 10px;
       max-width: 100%;
     }
+    /* section .content img.solo {
+      float: none;
+    } */
     section .content p {
       text-align: left;
+    }
+    section#clients .content-wrapper {
+      /* margin-bottom: 180px; */
+      /* min-height: 450px; */
+      /* padding: 75px 0; */
+      padding: 25px 0;
+    }
+    section#footer {
+      padding: 50px;
+    }
+    section#footer a:visited,
+    section#footer a {
+      color: #fffce3;
+      text-decoration: unset;
+    }
+    .row {
+      display: flex;
+      justify-content: space-evenly;
+      padding: 25px;
+    }
+    img.sarah {
+      /* margin-top: -50px; */
     }
   </style>
 </head>
@@ -106,6 +137,53 @@
           <p>Deposit - the deposit will be the cost of the hair. You will get a receipt to show you I do not make any money on the hair. If you buy the hair and change your mind, you own the hair.</p>
         </div>
       </div>
+    </section>
+    <section id="clients">
+      <h2>Clients</h2>
+      <div class="content-wrapper no-para">
+        <div class="content">
+          <img src="images/group1.png" alt="group of women" class="solo">
+        </div>
+      </div>
+      <div class="">
+        <div class="row col-2">
+          <div class="col"><img src="images/sarah.png" alt="sarah" class="sarah"></div>
+          <div class="col"><img src="images/alyse-bw.png" alt="alyse" class="alyse"></div>
+        </div>
+      </div>
+      <div class="content-wrapper">
+        <div class="row">
+          <div class="col"><img src="images/me-bikini.png" alt="me bikini"></div>
+        </div>
+      </div>
+      <div class="">
+        <div class="row col-2">
+          <div class="col"><img src="images/blaire.png" alt="blaire" class="blaire"></div>
+          <div class="col"><img src="images/kimmie.png" alt="kimmie" class="kimmie"></div>
+        </div>
+      </div>
+      <div class="content-wrapper">
+        <div class="row col-2">
+          <div class="col"><img src="images/lex-and-me.png" alt="lex-and-me" class="lex-and-me"></div>
+          <div class="col"><img src="images/alysecar.png" alt="alysecar" class="alysecar"></div>
+        </div>
+      </div>
+      <div class="">
+        <div class="row col-2">
+          <div class="col"><img src="images/sarah-profile.png" alt="sarah profile" class="sarah-profile"></div>
+          <div class="col"><img src="images/me-headshot.png" alt="me headshot" class="me-headshot"></div>
+        </div>
+      </div>
+      <div class="content-wrapper">
+        <div class="row col-2">
+          <div class="col"><img src="images/me-white-bikini.png" alt="me white bikini" class="me-white-bikini"></div>
+          <div class="col"><img src="images/taylor.png" alt="taylor" class="taylor"></div>
+        </div>
+      </div>
+    </section>
+    <section id="footer">
+      <div>For more go to Instagram</div>
+      <div><a href="https://www.instagram.com/lexiloxextensions/">@lexiloxextensions</a></div>
     </section>
   </div>
 </body>
